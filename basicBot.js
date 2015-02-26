@@ -191,7 +191,7 @@
         retrieveFromStorage: retrieveFromStorage,
         settings: {
             botName: "basicBot",
-            language: "english",
+            language: "russian",
             chatLink: "https://rawgit.com/NikallassZadske/basicBot/master/lang/ru.json",
             maximumAfk: 120,
             afkRemoval: true,
