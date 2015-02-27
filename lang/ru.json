@@ -9,9 +9,9 @@
 
 
     "welcome": "/me %%NAME%% Welcome home, Master",
-    "welcomeback": "/me %%NAME%% Welcome back, Master!",
-    "songknown": "/me :repeat: This song has been played %%PLAYS%% time(s) in the last %%TIMETOTAL%%, last play was %%LASTTIME%% ago. :repeat:",
-    "timelimit": "/me @%%NAME%%, your song is longer than %%MAXLENGTH%% minutes, you need permission to play longer songs.",
+    "welcomeback": "/me Welcome back, %%NAME%%-sama",
+    "songknown": "/me Такс такс что ето у нас повтор ахах %%PLAYS%% time(s) за последние %%TIMETOTAL%%, последний раз %%LASTTIME%% назад",
+    "timelimit": "/me @%%NAME%%, ты не в кинотеатре, мда, без погон длиннее %%MAXLENGTH%%  минут не поставишь t(ツ)_/¯",
     "permissionownsong": "/me :up: @%%NAME%% has permission to play their own production!",
     "isblacklisted": "/me This track is on the %%BLACKLIST%% blacklist! Skipping...",
 
