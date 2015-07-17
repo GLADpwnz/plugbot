@@ -8,8 +8,8 @@
     "online": "/me %%BOTNAME%% v%%VERSION%% Nyanpasu~ pedos!",
 
 
-    "welcome": "/me %%NAME%% Welcome home, Master",
-    "welcomeback": "/me Welcome back, %%NAME%%-sama",
+    "welcome": "/me Корбан байрәм белен,  %%NAME%%!",
+    "welcomeback": "/me Корбан байрәм белен,  %%NAME%%-sama!",
     "songknown": "/me Такс такс что ето у нас повтор ахах %%PLAYS%% time(s) за последние %%TIMETOTAL%%, последний раз %%LASTTIME%% назад",
     "timelimit": "/me @%%NAME%%, ты не в кинотеатре, мда, без погон длиннее %%MAXLENGTH%%  минут не поставишь t(ツ)_/¯",
     "permissionownsong": "/me :up: @%%NAME%% has permission to play their own production!",
