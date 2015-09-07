@@ -174,7 +174,7 @@
         return m;
     };
 
-    var botCreator = "Matthew aka. Yemasthui, edit by Nikallass";
+    var botCreator = "Matthew aka. Yemasthui";
     var botCreatorIDs = [];
 
     var basicBot = {
@@ -182,9 +182,9 @@
         status: false,
         name: "basicBot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/NikallassZadske/basicBot/master/basicBot.js",
+        scriptLink: "https://rawgit.com/GLADpwnz/plugbot/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/NikallassZadske/basicBot/master/lang/ru.json",
+        chatLink: "https://rawgit.com/GLADpwnz/plugbot/master/lang/ru.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -192,7 +192,7 @@
         settings: {
             botName: "basicBot",
             language: "russian",
-            chatLink: "https://rawgit.com/NikallassZadske/basicBot/master/lang/ru.json",
+            chatLink: "https://rawgit.com/GLADpwnz/plugbot/master/lang/ru.json",
             maximumAfk: 120,
             afkRemoval: true,
             maximumDc: 60,
