@@ -54,7 +54,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/GLADpwnz/plugbot/master/lang/langIndex.json", function (json) {
+        $.get("https://cdn.jsdelivr.net/gh/GLADpwnz/plugbot/lang/langIndex.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -182,9 +182,9 @@
         status: false,
         name: "basicBot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/GLADpwnz/plugbot/master/basicBot.js",
+        scriptLink: "https://cdn.jsdelivr.net/gh/GLADpwnz/plugbot/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/GLADpwnz/plugbot/master/lang/ru.json",
+        chatLink: "https://cdn.jsdelivr.net/gh/GLADpwnz/plugbot/lang/ru.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -192,7 +192,7 @@
         settings: {
             botName: "basicBot",
             language: "russian",
-            chatLink: "https://rawgit.com/GLADpwnz/plugbot/master/lang/ru.json",
+            chatLink: "https://cdn.jsdelivr.net/gh/GLADpwnz/plugbot/lang/ru.json",
             maximumAfk: 120,
             afkRemoval: true,
             maximumDc: 60,
